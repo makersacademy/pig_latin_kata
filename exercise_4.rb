@@ -1,15 +1,16 @@
-# Develop your work so far to handle sentences
-# e.g. "The quick fox jumped over the lazy dog" ->
-#      "Ethay ickquay oxfay umpedjay overway ethay azylay ogday"
+# Develop your work so far to preserve the existing capitalisation of the word
+# e.g. Dog  -> Ogday
+#      cram -> amcray
+#
+# Assume words either start with a capital letter or don't — don't worry about
+# other formats
 
-def pig_latin(sentence)
+def pig_latin(word)
 
 end
 
 ## Tests:
 
 require_relative './helpers/assert_equal'
-assert_equal(
-  pig_latin('The quick fox jumped over the lazy dog'),
-  'Ethay ickquay oxfay umpedjay overway ethay azylay ogday'
-)
+assert_equal(pig_latin('Dog'), 'Ogday')
+assert_equal(pig_latin('cram'), 'amcray')

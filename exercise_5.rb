@@ -1,8 +1,8 @@
-# Write the program to reverse the above
-# e.g. "Ethay uickqay oxfay umpedjay overway ethay azylay ogday" ->
-#      "The quick fox jumped over the lazy dog"
+# Develop your work so far to handle sentences
+# e.g. "The quick fox jumped over the lazy dog" ->
+#      "Ethay ickquay oxfay umpedjay overway ethay azylay ogday"
 
-def reverse_pig_latin(sentence)
+def pig_latin_sentence(sentence)
 
 end
 
@@ -10,6 +10,6 @@ end
 
 require_relative './helpers/assert_equal'
 assert_equal(
-  reverse_pig_latin('Ethay ickquay oxfay umpedjay overway ethay azylay ogday'),
-  'The quick fox jumped over the lazy dog'
+  pig_latin_sentence('The quick fox jumped over the lazy dog'),
+  'Ethay ickquay oxfay umpedjay overway ethay azylay ogday'
 )
