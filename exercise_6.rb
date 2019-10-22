@@ -1,5 +1,5 @@
 # Write the program to reverse the above
-# e.g. "Ethay uickqay oxfay umpedjay overway ethay azylay ogday" ->
+# e.g. "Ethay ickquay oxfay umpedjay overway ethay azylay ogday" ->
 #      "The quick fox jumped over the lazy dog"
 
 def pig_latin_sentence_reverse(sentence)
